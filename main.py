@@ -22,7 +22,7 @@ CmarketCap_headers = {
 def send_commands(message):
     telBot.reply_to(message, """Here are some commands you can use to get started:
 
-- /btcfee: Get the recommended fee for Bitcoin transactions
+- /btcfees: Get the recommended fee for Bitcoin transactions
 - /ethgas: Get the recommended fee for Ethereum transactions""")
     
 @telBot.message_handler(commands=['btcfees'])
